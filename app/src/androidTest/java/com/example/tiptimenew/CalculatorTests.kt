@@ -9,6 +9,7 @@ import androidx.test.espresso.matcher.ViewMatchers.withText
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.example.tiptimecreate_xml_layouts.MainActivity
+import com.example.tiptimecreate_xml_layouts.R
 import org.hamcrest.Matchers.containsString
 import org.junit.Rule
 import org.junit.Test
@@ -17,7 +18,7 @@ import org.junit.runner.RunWith
 @RunWith(AndroidJUnit4::class)
 class CalculatorTests {
 
-    @get:Rule
+    @get:Rule()
     val activity = ActivityScenarioRule(MainActivity::class.java)
 
     @Test
